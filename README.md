@@ -8,10 +8,13 @@ How to use it?
 
     a)Build an image from this Dockerfile:
     In the Folder where the Dockerfile is run
+    
     docker build -t mykirby_image:1.0 .
 
     b)Alternatively, you can:
-    Download image: docker pull severinlx/getkirby
+    Download image: 
+    
+    docker pull severinlx/getkirby
 
 3) Start a container from this image on port 80
 
